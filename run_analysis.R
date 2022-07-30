@@ -20,7 +20,6 @@ if (!file.exists(dataDir)) {
     unzip(zipfile = rawDataDFn, exdir = dataDir)
 }
 
-
 #2. merge {train, test} data set
 # refer: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 # train data
